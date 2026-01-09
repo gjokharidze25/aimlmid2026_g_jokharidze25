@@ -83,7 +83,6 @@ used to calculate Pearson’s correlation coefficient.
 
 ######################################################################################################
 
-
 # Spam email detection
 
 ### 📁 Project Structure
