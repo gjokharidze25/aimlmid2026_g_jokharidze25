@@ -11,20 +11,16 @@ Given a set of data points:
 
 ---
 
-## 📊 Pearson Correlation Formula
-```
-[
-r =
-\frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}
-{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2 \sum_{i=1}^{n} (y_i - \bar{y})^2}}
-]
-```
-Where:
-```
-* (x_i, y_i) — individual data points
-* (\bar{x}, \bar{y}) — mean values
-* (n) — number of observations
-```
+## 📐 Pearson Correlation Coefficient
+
+The Pearson correlation coefficient is defined as:
+
+r = Σ((xᵢ − x̄)(yᵢ − ȳ)) / √( Σ(xᵢ − x̄)² · Σ(yᵢ − ȳ)² )
+
+where:
+- xᵢ, yᵢ are individual data points
+- x̄, ȳ are the mean values
+- Σ denotes summation
 ---
 
 ## 📁 Project Structure
