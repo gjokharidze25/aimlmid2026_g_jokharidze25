@@ -12,19 +12,19 @@ Given a set of data points:
 ---
 
 ## 📊 Pearson Correlation Formula
-
+```
 [
 r =
 \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}
 {\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2 \sum_{i=1}^{n} (y_i - \bar{y})^2}}
 ]
-
+```
 Where:
-
+```
 * (x_i, y_i) — individual data points
 * (\bar{x}, \bar{y}) — mean values
 * (n) — number of observations
-
+```
 ---
 
 ## 📁 Project Structure
