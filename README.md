@@ -31,9 +31,9 @@ Where:
 
 ```
 .
-├── correlation.py     # Main Python script
-├── README.md           # Project documentation
-└── scatter.png         # Generated scatter plot (optional)
+├──Finding the correlation
+    ├── correlation.py     # Main Python script
+    └── scatter.png         # Generated scatter plot (optional)
 ```
 
 ---
