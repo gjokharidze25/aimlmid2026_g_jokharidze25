@@ -84,5 +84,5 @@ Pearson r (NumPy) : 0.448991
 The following scatter plot visualizes the distribution of the extracted data points
 used to calculate Pearson’s correlation coefficient.
 
-![Scatter Plot of Data Points](Finding\ the\ correlation/scatter.png)
+![Scatter Plot of Data Points](Finding the correlation/scatter.png)
 
