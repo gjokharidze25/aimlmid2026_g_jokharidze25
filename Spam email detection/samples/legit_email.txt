@@ -1,0 +1,13 @@
+Subject: Meeting notes and next steps for Tuesday
+
+Hi team,
+
+Thanks for today’s discussion. Attached are the notes and the action items:
+1) Finalize the sprint tasks
+2) Confirm the deployment window
+3) Update the documentation
+
+No urgent action is needed tonight. We will review progress on Tuesday.
+
+Best regards,
+Giorgi
