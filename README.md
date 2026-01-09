@@ -81,7 +81,8 @@ used to calculate Pearson’s correlation coefficient.
 
 ![Scatter Plot of Data Points](Finding%20the%20correlation/scatter.png)
 
-###########################################################################################################################
+######################################################################################################
+
 
 # Spam email detection
 
