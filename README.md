@@ -148,14 +148,14 @@ python -m src.app predict --model models.joblib --email-file samples/spam_email.
 
 ## Plots
 
-- `Spam%20email%20detection/plots/class_distribution.png`
-- `Spam%20email%20detection/plots/confusion_matrix_heatmap.png`
-- `Spam%20email%20detection/plots/feature_coefficients.png` (optional)
+- ![Scatter Plot of Data Points](Spam%20email%20detection/plots/class_distribution.png)
+- ![Scatter Plot of Data Points](Spam%20email%20detection/plots/confusion_matrix_heatmap.png)
+- ![Scatter Plot of Data Points](Spam%20email%20detection/plots/feature_coefficients.png)
 
 ## 1) Dataset link (uploaded to GitHub)
 Upload the provided dataset file to your repo:
-- `Spam%20email%20detection/data/g_jokharidze25_59612.csv`
-Then paste the GitHub link here: **(ADD LINK)**
+- `Spam email detection/data/g_jokharidze25_59612.csv`
+Then paste the GitHub link here: **https://github.com/gjokharidze25/aimlmid2026_g_jokharidze25/blob/main/Spam%20email%20detection/data/g_jokharidze25_59612_csv**
 
 Columns:
 - `words` — total word count in the email
@@ -169,7 +169,7 @@ Columns:
 The dataset is loaded from CSV, required columns are checked, and features/labels are separated:
 
 ```python
-df = pd.read_csv("Spam%20email%20detection/data/g_jokharidze25_59612.csv")
+df = pd.read_csv("data/g_jokharidze25_59612.csv")
 X = df[["words", "links", "capital_words", "spam_word_count"]]
 y = df["is_spam"]
 ```
@@ -199,7 +199,7 @@ Using the provided dataset and a 70/30 split (random_state=42, stratify=y), the 
 
 (Interpretation: positive coefficients increase the probability of being spam.)
 
-Source code link for training: **(ADD LINK to `Spam%20email%20detection/src/app.py`)**
+Source code link for training: **https://github.com/gjokharidze25/aimlmid2026_g_jokharidze25/blob/main/Spam%20email%20detection/src/app.py**
 
 ## 3) Validation (Confusion Matrix + Accuracy)
 ### Code
@@ -287,7 +287,7 @@ plt.title("Class Distribution: Legitimate vs Spam")
 plt.xlabel("Class")
 plt.ylabel("Number of Emails")
 plt.tight_layout()
-plt.savefig("Spam%20email%20detection/plots/class_distribution.png", dpi=200)
+plt.savefig("plots/class_distribution.png", dpi=200)
 ```
 
 Explanation (2–3 sentences):
@@ -306,7 +306,7 @@ for (i,j), val in np.ndenumerate(cm):
     plt.text(j, i, str(val), ha="center", va="center")
 plt.colorbar()
 plt.tight_layout()
-plt.savefig("Spam%20email%20detection/plots/confusion_matrix_heatmap.png", dpi=200)
+plt.savefig("plots/confusion_matrix_heatmap.png", dpi=200)
 ```
 
 Explanation (2–3 sentences):
